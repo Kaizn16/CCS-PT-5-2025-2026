@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT-5</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+            color: #1a202c;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8 lg:p-12">
+
+    <div class="container mx-auto max-w-6xl bg-white rounded-3xl shadow-2xl overflow-hidden">
+
+        <!-- Header Section with gradient background -->
+        <header class="text-center p-8 md:p-12 bg-gradient-to-r from-blue-600 to-indigo-700 text-white shadow-xl">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-2">PT-5</h1>
+            <p class="text-lg md:text-xl font-light opacity-90">Course</p>
+        </header>
+
+        <!-- Main Content Wrapper -->
+        <div class="p-6 md:p-10 lg:p-16">
+
+            <!-- Introduction Section -->
+            <section class="mb-10 md:mb-12">
+                <h2 class="text-2xl md:text-4xl font-bold text-gray-800 mb-4">Module Overview</h2>
+                <p class="text-gray-600 leading-relaxed text-lg">
+                    Welcome to the fundamentals of C programming, flowcharting, and pseudocode, as well as an introduction to the core concepts of Object-Oriented Programming (OOP).
+                </p>
+            </section>
+
+            <!-- Course Requirements Section -->
+            <section class="mb-10 md:mb-12 p-6 bg-blue-50 rounded-2xl border border-blue-100 shadow-inner">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Course Requirements</h2>
+                <div class="space-y-4">
+                    <div class="flex justify-between items-center bg-white p-4 rounded-xl shadow-md border border-gray-100">
+                        <span class="text-gray-800 font-medium text-lg md:text-xl">Attendance:</span>
+                        <span class="text-blue-600 font-extrabold text-xl md:text-2xl">20%</span>
+                    </div>
+                    <div class="flex justify-between items-center bg-white p-4 rounded-xl shadow-md border border-gray-100">
+                        <span class="text-gray-800 font-medium text-lg md:text-xl">Quiz & Activity:</span>
+                        <span class="text-blue-600 font-extrabold text-xl md:text-2xl">20%</span>
+                    </div>
+                    <div class="flex justify-between items-center bg-white p-4 rounded-xl shadow-md border border-gray-100">
+                        <span class="text-gray-800 font-medium text-lg md:text-xl">Midterm & Final Exam:</span>
+                        <span class="text-blue-600 font-extrabold text-xl md:text-2xl">60%</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Topics Section -->
+            <section class="mb-10 md:mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Topics Covered</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Topic Card 1 -->
+                    <div class="bg-gray-50 p-6 rounded-2xl border border-gray-200 shadow-md transform transition-transform duration-300 hover:scale-105">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">1. Getting Started with C</h3>
+                        <p class="text-gray-600">
+                            A brief history of C, its importance, and how to write and compile your first "Hello, World!" program.
+                        </p>
+                    </div>
+                    <!-- Topic Card 2 -->
+                    <div class="bg-gray-50 p-6 rounded-2xl border border-gray-200 shadow-md transform transition-transform duration-300 hover:scale-105">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">2. Variables & Data Types</h3>
+                        <p class="text-gray-600">
+                            Understanding how to store data using variables and the different types of data (int, float, char, etc.).
+                        </p>
+                    </div>
+                    <!-- Topic Card 3 -->
+                    <div class="bg-gray-50 p-6 rounded-2xl border border-gray-200 shadow-md transform transition-transform duration-300 hover:scale-105">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">3. Input & Output</h3>
+                        <p class="text-gray-600">
+                            Using `printf()` and `scanf()` to interact with the user and display information on the screen.
+                        </p>
+                    </div>
+                    <!-- Topic Card 4 -->
+                    <div class="bg-gray-50 p-6 rounded-2xl border border-gray-200 shadow-md transform transition-transform duration-300 hover:scale-105">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">4. Operators</h3>
+                        <p class="text-gray-600">
+                            Learning about arithmetic, relational, logical, and other operators to perform operations on data.
+                        </p>
+                    </div>
+                    <!-- Topic Card 5 -->
+                    <div class="bg-gray-50 p-6 rounded-2xl border border-gray-200 shadow-md transform transition-transform duration-300 hover:scale-105">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">5. Flow Control</h3>
+                        <p class="text-gray-600">
+                            Using `if...else`, `switch`, `for`, and `while` statements to control the flow of your program.
+                        </p>
+                    </div>
+                    <!-- Topic Card 6 -->
+                    <div class="bg-gray-50 p-6 rounded-2xl border border-gray-200 shadow-md transform transition-transform duration-300 hover:scale-105">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">6. Functions</h3>
+                        <p class="text-gray-600">
+                            Creating modular and reusable code by defining and calling functions.
+                        </p>
+                    </div>
+                    <!-- Topic Card 7 -->
+                    <div class="bg-gray-50 p-6 rounded-2xl border border-gray-200 shadow-md transform transition-transform duration-300 hover:scale-105">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">7. Flowcharting & Pseudocode</h3>
+                        <p class="text-gray-600">
+                            Learning to plan and design your program's logic before writing code using visual flowcharts and plain-language pseudocode.
+                        </p>
+                    </div>
+                    <!-- Topic Card 8 -->
+                    <div class="bg-gray-50 p-6 rounded-2xl border border-gray-200 shadow-md transform transition-transform duration-300 hover:scale-105">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">8. Introduction to OOP</h3>
+                        <p class="text-gray-600">
+                            An overview of Object-Oriented Programming (OOP) concepts like objects and classes. We'll also cover the four pillars of OOP:
+                            <br/><br/>
+                            • <b>Abstraction</b>: Hiding complex implementation details and showing only the essential features.
+                            <br/>
+                            • <b>Encapsulation</b>: Bundling data and the methods that operate on that data into a single unit.
+                            <br/>
+                            • <b>Polymorphism</b>: The ability of an object to take on many forms.
+                            <br/>
+                            • <b>Inheritance</b>: A mechanism where a new class is derived from an existing class, inheriting its properties.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer Section -->
+        <footer class="text-center text-gray-500 py-6 border-t border-gray-200 bg-gray-100">
+            <p class="text-sm md:text-base">&copy; 2025 Dev. Mark. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
